@@ -3,29 +3,29 @@
 title: 季文俊
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Wenjun Ji
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Wenjun
+last_name: Ji
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🧐🤡😎🤓
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Student at Nankai University
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Stanford University
-    url: https://www.stanford.edu/
+    url: https://www.nankai.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Multimodal AI,Dichotomous Image Segmentation.
 
 # Interests to show in About widget
 interests:
@@ -36,15 +36,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Undergraduate students in software engineering
+      institution: Nankai University
+      year: 2022-2026
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -119,6 +113,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ji Wenjun is an undergraduate student at Nankai University, currently interning at the Media Computing Laboratory. He is actively building his knowledge and skills in scientific research, while exploring areas of interest and seeking to carve out his own niche in his chosen field.
 {style="text-align: justify;"}
