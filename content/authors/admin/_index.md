@@ -21,7 +21,7 @@ role: Student at Nankai University
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
+  - name: Nankai University
     url: https://www.nankai.edu/
 
 # Short bio (displayed in user profile at end of posts)
