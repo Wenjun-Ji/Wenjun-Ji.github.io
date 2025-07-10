@@ -65,7 +65,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Wenjun Ji *(季文俊)*. I am currently a **junior** at [College of Software](https://cs.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/). I am working as a research intern at [Media Computing Lab](https://mmcheng.net/), Nankai University (2024.05 -- Present), focusing on camouflaged object detection and AI security under the guidance of Prof. [Deng-Ping Fan](https://dengpingfan.github.io/) and Prof. [Qing Guo](https://tsingqguo.github.io/). I am deeply grateful for their patient mentorship, which has guided me from a complete beginner to someone gradually growing in research
+Hi, I am Wenjun Ji. I am currently a **junior** at [College of Software](https://cs.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/). I am working as a research intern at [Media Computing Lab](https://mmcheng.net/), Nankai University (2024.05 -- Present), focusing on camouflaged object detection and AI security under the guidance of Prof. [Deng-Ping Fan](https://dengpingfan.github.io/) and Prof. [Qing Guo](https://tsingqguo.github.io/). I am deeply grateful for their patient mentorship, which has guided me from a complete beginner to someone gradually growing in research
 
 My research interests focus on **camouflaged object detection and AI security**. Recently, I am focusing on:  
 (1) improving the robustness of physical adversarial samples;  

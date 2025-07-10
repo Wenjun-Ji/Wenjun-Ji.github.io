@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Wenjun Ji"
 description              : "Wenjun Ji's Academic Homepage."
-repository               : "Wenjun-Ji/Wenjun-Ji.io"
+repository               : "Wenjun-Ji/Wenjun-Ji.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Wenjun Ji"
+  name             : "Wenjun Ji 季文俊"
   avatar           : "images/myself.jpg" # e.g., "https://avatars.githubusercontent.com/u/12345678?v=4"
   bio              : "Nankai University"
   location         : "Beijing, China"
