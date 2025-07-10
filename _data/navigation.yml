@@ -18,11 +18,11 @@ main:
   - title: "Internships"
     url: "/#-internships"
 
-  - title: "Beyond Academics"
-    url: "/#-beyond-academics"
-
   - title: "Services"
     url: "/#-services"
+
+  - title: "Beyond Academics"
+    url: "/#-beyond-academics"
 
   - title: "Projects"
     url: "/#-projects"
