@@ -70,3 +70,224 @@ Some examples:
 - AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
 - AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
 - AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+
+```
+Wenjun-Ji.io
+├─ Gemfile
+├─ Gemfile.lock
+├─ LICENSE
+├─ README.md
+├─ _config.yml
+├─ _data
+│  └─ navigation.yml
+├─ _includes
+│  ├─ analytics.html
+│  ├─ author-profile.html
+│  ├─ browser-upgrade.html
+│  ├─ fetch_google_scholar_stats.html
+│  ├─ head
+│  │  └─ custom.html
+│  ├─ head.html
+│  ├─ masthead.html
+│  ├─ scripts.html
+│  ├─ seo.html
+│  └─ sidebar.html
+├─ _layouts
+│  └─ default.html
+├─ _pages
+│  └─ about.md
+├─ _sass
+│  ├─ _animations.scss
+│  ├─ _archive.scss
+│  ├─ _base.scss
+│  ├─ _buttons.scss
+│  ├─ _footer.scss
+│  ├─ _forms.scss
+│  ├─ _masthead.scss
+│  ├─ _mixins.scss
+│  ├─ _navigation.scss
+│  ├─ _notices.scss
+│  ├─ _page.scss
+│  ├─ _print.scss
+│  ├─ _reset.scss
+│  ├─ _sidebar.scss
+│  ├─ _syntax.scss
+│  ├─ _tables.scss
+│  ├─ _utilities.scss
+│  ├─ _variables.scss
+│  └─ vendor
+│     ├─ breakpoint
+│     │  ├─ _breakpoint.scss
+│     │  ├─ _context.scss
+│     │  ├─ _helpers.scss
+│     │  ├─ _legacy-settings.scss
+│     │  ├─ _no-query.scss
+│     │  ├─ _parsers.scss
+│     │  ├─ _respond-to.scss
+│     │  ├─ _settings.scss
+│     │  └─ parsers
+│     │     ├─ _double.scss
+│     │     ├─ _query.scss
+│     │     ├─ _resolution.scss
+│     │     ├─ _single.scss
+│     │     ├─ _triple.scss
+│     │     ├─ double
+│     │     │  ├─ _default-pair.scss
+│     │     │  ├─ _default.scss
+│     │     │  └─ _double-string.scss
+│     │     ├─ resolution
+│     │     │  └─ _resolution.scss
+│     │     ├─ single
+│     │     │  └─ _default.scss
+│     │     └─ triple
+│     │        └─ _default.scss
+│     ├─ font-awesome
+│     │  ├─ _animated.scss
+│     │  ├─ _bordered-pulled.scss
+│     │  ├─ _core.scss
+│     │  ├─ _fixed-width.scss
+│     │  ├─ _icons.scss
+│     │  ├─ _larger.scss
+│     │  ├─ _list.scss
+│     │  ├─ _mixins.scss
+│     │  ├─ _rotated-flipped.scss
+│     │  ├─ _screen-reader.scss
+│     │  ├─ _shims.scss
+│     │  ├─ _stacked.scss
+│     │  ├─ _variables.scss
+│     │  ├─ brands.scss
+│     │  ├─ fontawesome.scss
+│     │  ├─ regular.scss
+│     │  ├─ solid.scss
+│     │  └─ v4-shims.scss
+│     ├─ magnific-popup
+│     │  ├─ _magnific-popup.scss
+│     │  └─ _settings.scss
+│     └─ susy
+│        ├─ _su.scss
+│        ├─ _susy.scss
+│        ├─ _susyone.scss
+│        └─ susy
+│           ├─ _su.scss
+│           ├─ language
+│           │  ├─ _susy.scss
+│           │  ├─ _susyone.scss
+│           │  ├─ susy
+│           │  │  ├─ _background.scss
+│           │  │  ├─ _bleed.scss
+│           │  │  ├─ _box-sizing.scss
+│           │  │  ├─ _breakpoint-plugin.scss
+│           │  │  ├─ _container.scss
+│           │  │  ├─ _context.scss
+│           │  │  ├─ _gallery.scss
+│           │  │  ├─ _grids.scss
+│           │  │  ├─ _gutters.scss
+│           │  │  ├─ _isolate.scss
+│           │  │  ├─ _margins.scss
+│           │  │  ├─ _padding.scss
+│           │  │  ├─ _rows.scss
+│           │  │  ├─ _settings.scss
+│           │  │  ├─ _span.scss
+│           │  │  └─ _validation.scss
+│           │  └─ susyone
+│           │     ├─ _background.scss
+│           │     ├─ _functions.scss
+│           │     ├─ _grid.scss
+│           │     ├─ _isolation.scss
+│           │     ├─ _margin.scss
+│           │     ├─ _media.scss
+│           │     ├─ _padding.scss
+│           │     └─ _settings.scss
+│           ├─ output
+│           │  ├─ _float.scss
+│           │  ├─ _shared.scss
+│           │  ├─ _support.scss
+│           │  ├─ float
+│           │  │  ├─ _container.scss
+│           │  │  ├─ _end.scss
+│           │  │  ├─ _isolate.scss
+│           │  │  └─ _span.scss
+│           │  ├─ shared
+│           │  │  ├─ _background.scss
+│           │  │  ├─ _container.scss
+│           │  │  ├─ _direction.scss
+│           │  │  ├─ _inspect.scss
+│           │  │  ├─ _margins.scss
+│           │  │  ├─ _output.scss
+│           │  │  └─ _padding.scss
+│           │  └─ support
+│           │     ├─ _background.scss
+│           │     ├─ _box-sizing.scss
+│           │     ├─ _clearfix.scss
+│           │     ├─ _prefix.scss
+│           │     ├─ _rem.scss
+│           │     └─ _support.scss
+│           └─ su
+│              ├─ _grid.scss
+│              ├─ _settings.scss
+│              ├─ _utilities.scss
+│              └─ _validation.scss
+├─ assets
+│  ├─ css
+│  │  ├─ academicons.css
+│  │  ├─ academicons.min.css
+│  │  ├─ collapse.css
+│  │  └─ main.scss
+│  ├─ fonts
+│  │  ├─ academicons.eot
+│  │  ├─ academicons.svg
+│  │  ├─ academicons.ttf
+│  │  ├─ academicons.woff
+│  │  ├─ fa-brands-400.eot
+│  │  ├─ fa-brands-400.svg
+│  │  ├─ fa-brands-400.ttf
+│  │  ├─ fa-brands-400.woff
+│  │  ├─ fa-brands-400.woff2
+│  │  ├─ fa-regular-400.eot
+│  │  ├─ fa-regular-400.svg
+│  │  ├─ fa-regular-400.ttf
+│  │  ├─ fa-regular-400.woff
+│  │  ├─ fa-regular-400.woff2
+│  │  ├─ fa-solid-900.eot
+│  │  ├─ fa-solid-900.svg
+│  │  ├─ fa-solid-900.ttf
+│  │  ├─ fa-solid-900.woff
+│  │  └─ fa-solid-900.woff2
+│  └─ js
+│     ├─ _main.js
+│     ├─ collapse.js
+│     ├─ main.min.js
+│     ├─ plugins
+│     │  ├─ jquery.fitvids.js
+│     │  ├─ jquery.greedy-navigation.js
+│     │  ├─ jquery.magnific-popup.js
+│     │  ├─ jquery.smooth-scroll.min.js
+│     │  └─ stickyfill.min.js
+│     └─ vendor
+│        └─ jquery
+│           └─ jquery-1.12.4.min.js
+├─ docs
+│  ├─ README-zh.md
+│  └─ screenshot.png
+├─ google_scholar_crawler
+│  ├─ main.py
+│  └─ requirements.txt
+├─ images
+│  ├─ 500x300.png
+│  ├─ AngleRoCL.png
+│  ├─ android-chrome-192x192.png
+│  ├─ android-chrome-512x512.png
+│  ├─ apple-touch-icon.png
+│  ├─ birefnet.png
+│  ├─ chatnku.png
+│  ├─ dayspark.png
+│  ├─ favicon-16x16.png
+│  ├─ favicon-32x32.png
+│  ├─ favicon.ico
+│  ├─ myself.jpg
+│  ├─ restartuniversity.png
+│  ├─ site.webmanifest
+│  └─ wave_and_wave.png
+└─ run_server.sh
+
+```
