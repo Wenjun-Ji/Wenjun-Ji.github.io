@@ -88,11 +88,10 @@ My research aims to build **intelligent systems that are both theoretically grou
 
 **Wenjun Ji**, Yuxiang Fu, Luyang Ying, Deng-Ping Fan, Yuyi Wang, Ming-Ming Cheng, Ivor Tsang, Qing Guo
 
-[**NeurIPS 2025**](https://arxiv.org/abs/2506.09538v1)
-- This work addresses the angle robustness issue of text-to-image adversarial patches and proposes AngleRoCL method that achieves over 50% average relative improvement in attack effectiveness across multiple angles.
 [**[Paper]**](https://arxiv.org/pdf/2506.09538)&nbsp;
 [**[Project]**](https://wenjun-ji.github.io/anglerocl/)&nbsp;
 [**[Code]**](https://github.com/tsingqguo/anglerocl)
+- This work addresses the angle robustness issue of text-to-image adversarial patches and proposes AngleRoCL method that achieves over 50% average relative improvement in attack effectiveness across multiple angles.
 </div>
 </div>
 
