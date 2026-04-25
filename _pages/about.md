@@ -90,6 +90,7 @@ My research aims to build **intelligent systems that are both theoretically grou
 
 [**NeurIPS 2025**](https://arxiv.org/abs/2506.09538v1)
 - This work addresses the angle robustness issue of text-to-image adversarial patches and proposes AngleRoCL method that achieves over 50% average relative improvement in attack effectiveness across multiple angles.
+- [**Code**](https://github.com/tsingqguo/anglerocl)
 </div>
 </div>
 
