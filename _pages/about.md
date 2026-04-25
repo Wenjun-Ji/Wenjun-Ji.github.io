@@ -81,14 +81,14 @@ My research aims to build **intelligent systems that are both theoretically grou
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/AngleRoCL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/AngleRoCL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AngleRoCL: Angle-Robust Concept Learning for Physically View-Invariant T2I Adversarial Patches](https://arxiv.org/abs/2506.09538v1)
 
 **Wenjun Ji**, Yuxiang Fu, Luyang Ying, Deng-Ping Fan, Yuyi Wang, Ming-Ming Cheng, Ivor Tsang, Qing Guo
 
-[**arXiv**](https://arxiv.org/abs/2506.09538v1)
+[**NeurIPS 2025**](https://arxiv.org/abs/2506.09538v1)
 - This work addresses the angle robustness issue of text-to-image adversarial patches and proposes AngleRoCL method that achieves over 50% average relative improvement in attack effectiveness across multiple angles.
 </div>
 </div>
@@ -96,6 +96,8 @@ My research aims to build **intelligent systems that are both theoretically grou
 <span class='anchor' id='-honors-and-awards'></span>
 
 # 🎖 Honors and Awards
+- *2025*: &nbsp;💰 *BYD Scholarship* – 10,000 CNY
+- *2025*: &nbsp;💰 *Innovation Scholarship*, Nankai University – 2,000 CNY
 - *2024*: &nbsp;💰 *National Scholarship* (2/127, Top 1.6%) – 10,000 CNY
 - *2024*: &nbsp;🎖 Outstanding Student of Nankai University
 - *2023*: &nbsp;💰 *Gongneng Scholarship*, Nankai University (6/144, Top 4.1%) – 5,000 CNY
@@ -108,6 +110,7 @@ My research aims to build **intelligent systems that are both theoretically grou
 <span class='anchor' id='-educations'></span>
 
 # 📖 Educations
+- *2026.09 - 2029.06 (expected)*, Master's Student, Peking University. Advisor: Prof. Qingni Shen.
 - *2022.09 - 2026.07 (expected)*, Bachelor of Engineering in Software Engineering, College of Software, Nankai University.
 
 <span class='anchor' id='-internships'></span>
