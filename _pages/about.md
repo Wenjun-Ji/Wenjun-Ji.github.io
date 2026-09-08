@@ -65,7 +65,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Wenjun Ji. I am currently a **junior** at [College of Software](https://cs.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/). I am working as a research intern at [Media Computing Lab](https://mmcheng.net/), Nankai University (2024.05 -- Present), focusing on camouflaged object detection and AI security under the guidance of Prof. [Deng-Ping Fan](https://dengpingfan.github.io/) and Prof. [Qing Guo](https://tsingqguo.github.io/). I am deeply grateful for their patient mentorship, which has guided me from a complete beginner to someone gradually growing in research
+Hi, I am Wenjun Ji. I am currently a **first-year Master's student** at the [School of Software & Microelectronics](https://www.ss.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/), advised by Prof. Qingni Shen. I received my B.Eng. in Software Engineering from [Nankai University](https://www.nankai.edu.cn/) in 2026, where I worked as a research intern at [Media Computing Lab](https://mmcheng.net/) (2024.05 – 2026.06), focusing on camouflaged object detection and AI security under the guidance of Prof. [Deng-Ping Fan](https://dengpingfan.github.io/) and Prof. [Qing Guo](https://tsingqguo.github.io/). I am deeply grateful for their patient mentorship, which has guided me from a complete beginner to someone gradually growing in research.
 
 My research interests focus on **camouflaged object detection and AI security**. Recently, I am focusing on:  
 (1) improving the robustness of physical adversarial samples;  
@@ -75,6 +75,8 @@ My research aims to build **intelligent systems that are both theoretically grou
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
+- *2026.09*: &nbsp;🎓 I started my Master's journey at Peking University!
+- *2025.09*: &nbsp;🎉🎉 Our paper AngleRoCL was accepted by **NeurIPS 2025**!
 - *2025.01*: &nbsp;🎉🎉 I have set up a Blog Site, welcome everyone to visit!
 
 <span class='anchor' id='-publications'></span>
@@ -98,6 +100,7 @@ My research aims to build **intelligent systems that are both theoretically grou
 <span class='anchor' id='-honors-and-awards'></span>
 
 # 🎖 Honors and Awards
+- *2026*: &nbsp;🎓 *Outstanding Graduate*, Nankai University
 - *2025*: &nbsp;💰 *BYD Scholarship* – 10,000 CNY
 - *2025*: &nbsp;💰 *Innovation Scholarship*, Nankai University – 2,000 CNY
 - *2024*: &nbsp;💰 *National Scholarship* (2/127, Top 1.6%) – 10,000 CNY
@@ -113,12 +116,12 @@ My research aims to build **intelligent systems that are both theoretically grou
 
 # 📖 Educations
 - *2026.09 - 2029.06 (expected)*, Master's Student, Peking University. Advisor: Prof. Qingni Shen.
-- *2022.09 - 2026.07 (expected)*, Bachelor of Engineering in Software Engineering, College of Software, Nankai University.
+- *2022.09 - 2026.07*, Bachelor of Engineering in Software Engineering, College of Software, Nankai University.
 
 <span class='anchor' id='-internships'></span>
 
 # 💻 Internships
-- *2024.09 - Present*, Research Intern, Media Computing Lab, Nankai University. Working on camouflaged object detection and adversarial attacks under Prof. Dengping Fan adn Prof. Qing Guo.
+- *2024.09 - 2026.06*, Research Intern, Media Computing Lab, Nankai University. Working on camouflaged object detection and adversarial attacks under Prof. Dengping Fan and Prof. Qing Guo.
 
 <span class='anchor' id='-services'></span>
 
@@ -152,7 +155,7 @@ I have a passion for basketball🏀 and photography📸, finding these activitie
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Background Removal</div><img src='images/birefnet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Online AI Background Removal Tool](https://www.birefnet.top/)
+[Online AI Background Removal Tool](https://www.birefnet.cv/)
 
 **Team Leader** | *2024.05 - 2024.07*
 
