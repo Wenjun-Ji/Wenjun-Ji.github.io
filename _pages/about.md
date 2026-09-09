@@ -101,7 +101,7 @@ My research aims to build **intelligent systems that are both theoretically grou
 
 # 🎖 Honors and Awards
 - *2026*: &nbsp;🎓 *Outstanding Graduate*, Nankai University
-- *2025*: &nbsp;💰 *BYD Scholarship* – 10,000 CNY
+- *2025*: &nbsp;💰 *BYD Scholarship* (1/131, sole recipient in the major) – 10,000 CNY
 - *2025*: &nbsp;💰 *Innovation Scholarship*, Nankai University – 2,000 CNY
 - *2024*: &nbsp;💰 *National Scholarship* (2/127, Top 1.6%) – 10,000 CNY
 - *2024*: &nbsp;🎖 Outstanding Student of Nankai University
@@ -111,6 +111,7 @@ My research aims to build **intelligent systems that are both theoretically grou
 - *2024.12*: &nbsp;🏆 *Second Prize*, Mobile "AI+" College Innovation Plan (North China Region)
 - *2024.08*: &nbsp;🏆 *Gold Prize*, China International College Students' Innovation Competition (Tianjin Region)
 - *2024.10*: &nbsp;🏆 *National Bronze Prize*, China International College Students' Innovation Competition 
+- *2025.09*: &nbsp;🏆 *First Prize (North China Region) & National Third Prize*, National College Computer Competition – AIGC Innovation Track
 
 <span class='anchor' id='-educations'></span>
 
@@ -141,7 +142,7 @@ I have a passion for basketball🏀 and photography📸, finding these activitie
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Game Dev</div><img src='images/wave_and_wave.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[WAVE ADN WAVE - 2D Vector Shooting Game](https://www.bilibili.com/video/BV1Uc411P7bQ/?spm_id_from=333.337.search-card.all.click&vd_source=00d5db08dc38a71784409aafec78f52c)
+[WAVE AND WAVE - 2D Vector Shooting Game](https://www.bilibili.com/video/BV1Uc411P7bQ/?spm_id_from=333.337.search-card.all.click&vd_source=00d5db08dc38a71784409aafec78f52c)
 
 **Individual Project** | *2023.05 - 2023.06*
 
@@ -206,5 +207,6 @@ I have a passion for basketball🏀 and photography📸, finding these activitie
 - Leading team management and overall technical architecture design
 - Built with vivo Blue Heart LLM using multi-agent collaboration for multimodal interaction
 - Developed using Android native MVVM architecture + Flask backend + MySQL/Neo4j full-stack application
+- Won First Prize (North China Region) and National Third Prize in National College Computer Competition – AIGC Innovation Track (2025.09)
 </div>
 </div>
