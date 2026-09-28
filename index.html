@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wenjun Ji - Peking University</title>
+  <meta name="description" content="Wenjun Ji - Master's student at School of Software & Microelectronics, Peking University">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <style>
+    :root {
+      --primary: #4A90D9;
+      --primary-dark: #2C6CB0;
+      --bg: #ffffff;
+      --bg-alt: #f8f9fc;
+      --text: #333;
+      --text-light: #666;
+      --border: #e0e4ea;
+      --sidebar-width: 260px;
+      --max-width: 1100px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+      background: var(--bg);
+    }
+
+    /* ===== Navigation ===== */
+    .topnav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+    }
+    .topnav-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    .topnav .site-title {
+      font-weight: 700;
+      font-size: 1.15em;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .topnav nav a {
+      color: var(--text-light);
+      text-decoration: none;
+      font-size: 0.9em;
+      font-weight: 600;
+      margin-left: 24px;
+      transition: color 0.2s;
+    }
+    .topnav nav a:hover { color: var(--primary); }
+    .menu-toggle { display: none; background: none; border: none; font-size: 1.3em; cursor: pointer; color: var(--text); }
+
+    /* ===== Layout ===== */
+    .wrapper {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      gap: 48px;
+      padding: 40px 24px;
+    }
+
+    /* ===== Sidebar ===== */
+    .sidebar {
+      flex-shrink: 0;
+      width: var(--sidebar-width);
+      position: sticky;
+      top: 96px;
+      align-self: flex-start;
+    }
+    .profile-card {
+      text-align: center;
+    }
+    .profile-card img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--bg-alt);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      margin-bottom: 16px;
+    }
+    .profile-card h2 {
+      font-size: 1.3em;
+      margin-bottom: 4px;
+    }
+    .profile-card .affiliation {
+      color: var(--text-light);
+      font-size: 0.95em;
+      margin-bottom: 4px;
+    }
+    .profile-card .location {
+      color: var(--text-light);
+      font-size: 0.85em;
+      margin-bottom: 16px;
+    }
+    .profile-card .location i { margin-right: 4px; }
+    .social-links {
+      list-style: none;
+      text-align: left;
+      font-size: 0.9em;
+    }
+    .social-links li {
+      margin-bottom: 8px;
+    }
+    .social-links li a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .social-links li a:hover { color: var(--primary); }
+    .social-links li i {
+      width: 20px;
+      text-align: center;
+      margin-right: 8px;
+      color: var(--text-light);
+    }
+
+    /* ===== Main Content ===== */
+    .main-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .main-content section {
+      margin-bottom: 40px;
+    }
+
+    .main-content h1 {
+      font-size: 1.5em;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--bg-alt);
+    }
+
+    .main-content p {
+      margin-bottom: 12px;
+    }
+
+    .main-content a {
+      color: var(--primary-dark);
+      text-decoration: none;
+    }
+    .main-content a:hover { text-decoration: underline; }
+
+    /* ===== News ===== */
+    .news-scroll {
+      max-height: 180px;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      background: var(--bg-alt);
+    }
+    .news-scroll::-webkit-scrollbar {
+      width: 6px;
+    }
+    .news-scroll::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 3px;
+    }
+    .news-list {
+      list-style: disc;
+      padding-left: 20px;
+      margin: 0;
+    }
+    .news-list li {
+      padding: 4px 0;
+      font-size: 0.95em;
+    }
+    .news-list .date {
+      color: var(--text-light);
+      font-style: italic;
+      margin-right: 8px;
+    }
+
+    /* ===== Publications ===== */
+    .pub-section-title {
+      font-size: 1.15em;
+      color: var(--primary-dark);
+      margin: 24px 0 12px;
+      font-weight: 700;
+    }
+    .pub-section-title:first-of-type { margin-top: 8px; }
+
+    .pub-item {
+      padding: 16px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      transition: box-shadow 0.2s;
+    }
+    .pub-item:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+    .pub-item .pub-title {
+      font-weight: 700;
+      font-size: 1em;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+    .pub-item .pub-authors {
+      font-size: 0.9em;
+      color: var(--text-light);
+      margin-bottom: 4px;
+    }
+    .pub-item .pub-authors .me {
+      font-weight: 700;
+      color: var(--text);
+    }
+    .pub-item .pub-venue {
+      font-size: 0.88em;
+      margin-bottom: 6px;
+    }
+    .pub-item .pub-venue .venue-name {
+      font-weight: 700;
+      color: var(--primary-dark);
+    }
+    .pub-item .pub-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-size: 0.82em;
+      font-weight: 600;
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      margin-right: 6px;
+      transition: all 0.2s;
+    }
+    .pub-item .pub-links a:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* ===== Awards / Education / Internships ===== */
+    .timeline-list {
+      list-style: none;
+    }
+    .timeline-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--bg-alt);
+      font-size: 0.95em;
+    }
+    .timeline-list .time {
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      text-align: center;
+      padding: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85em;
+      color: var(--text-light);
+      margin-top: 40px;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      .topnav nav { display: none; position: absolute; top: 56px; left: 0; right: 0; background: white; border-bottom: 1px solid var(--border); padding: 12px 24px; flex-direction: column; }
+      .topnav nav.show { display: flex; }
+      .topnav nav a { margin: 8px 0; margin-left: 0; }
+      .menu-toggle { display: block; }
+      .wrapper { flex-direction: column; gap: 24px; padding: 24px 16px; }
+      .sidebar { width: 100%; position: static; }
+      .profile-card img { width: 140px; height: 140px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="topnav">
+  <div class="topnav-inner">
+    <a href="/" class="site-title">Wenjun Ji</a>
+    <button class="menu-toggle" onclick="document.querySelector('.topnav nav').classList.toggle('show')">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#awards">Awards</a>
+      <a href="#education">Education</a>
+      <a href="#internships">Internships</a>
+    </nav>
+  </div>
+</div>
+
+<div class="wrapper">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="profile-card">
+      <img src="images/myself.jpg" alt="Wenjun Ji">
+      <h2>Wenjun Ji</h2>
+      <p class="affiliation">Peking University</p>
+      <p class="location"><i class="fas fa-map-marker-alt"></i> Beijing, China</p>
+    </div>
+    <ul class="social-links">
+      <li><a href="mailto:jiwenjun26@stu.pku.edu.cn"><i class="fas fa-envelope"></i> Email</a></li>
+      <!-- TODO: Google Scholar 页面尚未创建，建好后再取消注释并填入链接 -->
+      <!-- <li><a href="https://scholar.google.com/citations?user=YOUR_ID"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li> -->
+      <li><a href="https://github.com/Wenjun-Ji"><i class="fab fa-github"></i> GitHub</a></li>
+      <!-- TODO: DBLP 个人页面确认后替换为正式 pid 链接（当前为搜索页） -->
+      <li><a href="https://dblp.org/search?q=Wenjun+Ji"><i class="ai ai-dblp"></i> DBLP</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- About -->
+    <section id="about">
+      <h1>About Me</h1>
+      <p>
+        Hi, I am Wenjun Ji. I am currently a <strong>Master's student</strong> at the <a href="https://www.ss.pku.edu.cn/">School of Software & Microelectronics</a>, <a href="https://www.pku.edu.cn/">Peking University</a>, advised by Prof. Qingni Shen.
+        I received my B.Eng. in Software Engineering from <a href="https://www.nankai.edu.cn/">Nankai University</a> in 2026, where I worked as a research intern at <a href="https://mmcheng.net/">Media Computing Lab</a> (2024.05 – 2026.06), focusing on camouflaged object detection and AI security under the guidance of Prof. <a href="https://dengpingfan.github.io/">Deng-Ping Fan</a> and Prof. <a href="https://tsingqguo.github.io/">Qing Guo</a>.
+      </p>
+      <p>
+        My research interests include <strong>computer vision</strong>, <strong>AI security</strong>, and <strong>physical adversarial attacks</strong>.
+        My research aims to build <strong>intelligent systems that are both theoretically grounded and practically effective</strong>, with the ultimate goal of advancing AI safety and reliability in real-world deployments.
+      </p>
+    </section>
+
+    <!-- News -->
+    <section id="news">
+      <h1>News</h1>
+      <div class="news-scroll">
+        <ul class="news-list">
+          <li><span class="date">2026.09</span> I started my Master's journey at <strong>Peking University</strong>.</li>
+          <li><span class="date">2025.09</span> Our paper AngleRoCL was accepted by <strong>NeurIPS 2025</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h1>Publications</h1>
+
+      <div class="pub-section-title">Conference Papers</div>
+
+      <div class="pub-item">
+        <div class="pub-title">AngleRoCL: Angle-Robust Concept Learning for Physically View-Invariant T2I Adversarial Patches</div>
+        <div class="pub-authors"><span class="me">Wenjun Ji</span>, Yuxiang Fu, Luyang Ying, Deng-Ping Fan, Yuyi Wang, Ming-Ming Cheng, Ivor Tsang, Qing Guo</div>
+        <div class="pub-venue"><span class="venue-name">Conference on Neural Information Processing Systems (NeurIPS)</span>, 2025</div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2506.09538"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://wenjun-ji.github.io/anglerocl/"><i class="fas fa-globe"></i> Project</a>
+          <a href="https://github.com/Wenjun-Ji/anglerocl"><i class="fab fa-github"></i> Code</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Awards -->
+    <section id="awards">
+      <h1>Honors and Awards</h1>
+      <ul class="timeline-list">
+        <li><span class="time">2026</span> &mdash; Outstanding Graduate, Nankai University</li>
+        <li><span class="time">2025</span> &mdash; BYD Scholarship (1/131, sole recipient in the major), 10,000 CNY</li>
+        <li><span class="time">2025</span> &mdash; Innovation Scholarship, Nankai University, 2,000 CNY</li>
+        <li><span class="time">2025.09</span> &mdash; First Prize (North China Region) &amp; National Third Prize, National College Computer Competition &ndash; AIGC Innovation Track</li>
+        <li><span class="time">2024</span> &mdash; National Scholarship (2/127, Top 1.6%), 10,000 CNY</li>
+        <li><span class="time">2024</span> &mdash; Outstanding Student of Nankai University</li>
+        <li><span class="time">2024.12</span> &mdash; Second Prize, Mobile "AI+" College Innovation Plan (North China Region)</li>
+        <li><span class="time">2024.10</span> &mdash; National Bronze Prize, China International College Students' Innovation Competition</li>
+        <li><span class="time">2024.08</span> &mdash; Gold Prize, China International College Students' Innovation Competition (Tianjin Region)</li>
+        <li><span class="time">2023</span> &mdash; Gongneng Scholarship, Nankai University (6/144, Top 4.1%), 5,000 CNY</li>
+        <li><span class="time">2023</span> &mdash; Outstanding Student of Nankai University</li>
+        <li><span class="time">2023.10</span> &mdash; Second Prize, National Mathematical Contest in Modeling (Tianjin Region)</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h1>Education</h1>
+      <ul class="timeline-list">
+        <li><span class="time">2026.09 &ndash; 2029.06 (expected)</span> &mdash; M.S. student, <a href="https://www.ss.pku.edu.cn/">School of Software & Microelectronics</a>, <a href="https://www.pku.edu.cn/">Peking University</a>, Beijing, China. Advisor: Prof. Qingni Shen</li>
+        <li><span class="time">2022.09 &ndash; 2026.07</span> &mdash; B.Eng. in Software Engineering, <a href="https://www.nankai.edu.cn/">Nankai University</a>, Tianjin, China</li>
+      </ul>
+    </section>
+
+    <!-- Internships -->
+    <section id="internships">
+      <h1>Internships</h1>
+      <ul class="timeline-list">
+        <li><span class="time">2024.05 &ndash; 2026.06</span> &mdash; Research Intern, <a href="https://mmcheng.net/">Media Computing Lab</a>, <a href="https://www.nankai.edu.cn/">Nankai University</a>, working on camouflaged object detection and adversarial attacks under Prof. <a href="https://dengpingfan.github.io/">Deng-Ping Fan</a> and Prof. <a href="https://tsingqguo.github.io/">Qing Guo</a></li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <p>&copy; 2026 Wenjun Ji. Hosted on <a href="https://github.com/Wenjun-Ji/Wenjun-Ji.github.io">GitHub Pages</a>.</p>
+</footer>
+
+</body>
+</html>
